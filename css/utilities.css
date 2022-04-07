@@ -4,6 +4,7 @@
   --price-clr: #b12704;
   --orange-clr: #c60;
   --links-tourq-clr: #007185;
+  --links-hover-clr: #c7511f;
   --btn-yellow-clr: #ffd814;
   --btn-orange-clr: #ffa41c;
   --green-clr: #007600;
@@ -19,6 +20,14 @@
 
 body {
   font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+a {
+  color: var(--links-tourq-clr);
+}
+
+a:hover {
+  color: var(--links-hover-clr);
 }
 
 .font-12-400 {
