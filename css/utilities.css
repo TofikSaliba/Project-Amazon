@@ -1,3 +1,16 @@
+:root {
+  --nav-primary-clr: #232f3e;
+  --nav-secondary-clr: #37475a;
+  --price-clr: #b12704;
+  --orange-clr: #c60;
+  --links-tourq-clr: #007185;
+  --btn-yellow-clr: #ffd814;
+  --btn-orange-clr: #ffa41c;
+  --green-clr: #007600;
+  --general-grey-clr: #565959;
+  --general-black-clr: #0f1111;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +18,7 @@
 }
 
 body {
-  font-family: "Amazon Ember";
+  font-family: "Amazon Ember", Arial, sans-serif;
 }
 
 .font-12-400 {
