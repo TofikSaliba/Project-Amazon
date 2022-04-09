@@ -1,0 +1,46 @@
+.coursal {
+  padding: 0 18px;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1500px;
+  margin-bottom: 100px;
+}
+
+.pics-box span,
+.pics-box img {
+  padding: 10px;
+}
+
+.pics-box div {
+  padding: 15px;
+  align-self: flex-start;
+}
+
+.add-all-to-cart {
+  width: 130px;
+  height: 25px;
+  padding: 1px 6px;
+  border-radius: 7px;
+  background: var(--btn-yellow-clr);
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-all-to-cart:hover {
+  background: #eec913;
+}
+
+.coursal-items .an-item a {
+  color: var(--links-tourq-clr);
+}
+
+.coursal-items .an-item a:hover {
+  color: var(--orange-clr);
+  text-decoration: underline;
+}
+
+.an-item {
+  width: 160px;
+  margin-left: 20px;
+}

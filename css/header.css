@@ -213,4 +213,10 @@
   color: #333;
   padding: 5px 10px;
   flex-shrink: 0;
+  border-bottom: 2px solid transparent;
+}
+
+.header-bot-nav a:hover {
+  color: var(--btn-orange-clr);
+  border-color: var(--btn-orange-clr);
 }

@@ -50,6 +50,11 @@
   border: 1px solid #a2a6ac;
 }
 
+.left-gallery-small-gallery ul li:hover {
+  border-color: var(--btn-orange-clr);
+  box-shadow: 0px 0px 5px 0.5px var(--btn-orange-clr);
+}
+
 .left-gallery-big-image {
   padding: 5px;
 }
