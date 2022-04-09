@@ -1,6 +1,6 @@
 :root {
-  --nav-primary-clr: #232f3e;
-  --nav-secondary-clr: #37475a;
+  --nav-primary-clr: #131921;
+  --nav-secondary-clr: #232f3e;
   --price-clr: #b12704;
   --orange-clr: #c60;
   --links-tourq-clr: #007185;
@@ -22,13 +22,22 @@ body {
   font-family: "Amazon Ember", Arial, sans-serif;
 }
 
+#header {
+  color: #fff;
+}
+
 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* a {
   color: var(--links-tourq-clr);
 }
 
 a:hover {
   color: var(--links-hover-clr);
-}
+} */
 
 .font-12-400 {
   font-size: 12px;
@@ -48,6 +57,7 @@ a:hover {
 .font-14-700 {
   font-size: 14px;
   font-weight: 700;
+  line-height: 15px;
 }
 
 .font-16-400 {
@@ -68,4 +78,10 @@ a:hover {
 .font-18-700 {
   font-size: 18px;
   font-weight: 700;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

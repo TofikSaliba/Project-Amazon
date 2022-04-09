@@ -1,0 +1,230 @@
+.header-top-nav {
+  background: var(--nav-primary-clr);
+  display: flex;
+}
+
+/*? top left navbar */
+.header-top-nav-left {
+  display: flex;
+  height: 60px;
+}
+
+.header-top-nav-left-logo {
+  padding-top: 4px;
+  margin-left: 1px;
+}
+
+.header-top-nav-left-logo a {
+  padding: 1px 8px 0 6px;
+  margin: 1px;
+  height: 50px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.header-top-nav-left-logo a:hover {
+  border-color: #fff;
+}
+
+.header-top-nav-left-logo-sprite {
+  background: url("../assets/sprites/icons-sprite-2.png") no-repeat -10px -51px;
+  width: 96px;
+  height: 29px;
+}
+
+/*? location */
+.header-top-nav-left-location {
+  width: auto;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.header-top-nav-left-location a {
+  padding: 0 8px 0 6px;
+  margin: 5px 2px 5px 0;
+  height: 50px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.header-top-nav-left-location a:hover {
+  border-color: #fff;
+}
+
+.header-top-nav-left-location-sprite {
+  background: url("../assets/sprites/icons-sprite-2.png") no-repeat -71px -378px;
+  width: 15px;
+  height: 18px;
+  margin-top: 8px;
+  margin-left: 1px;
+}
+
+.header-top-nav-left-location-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3px;
+  color: #d6d6d6;
+}
+
+.header-top-nav-left-location-text .font-14-700 {
+  color: #fff;
+}
+
+/*? mid search navbar */
+.header-top-nav-search {
+  display: flex;
+  flex: 1 0 365px;
+  /* margin: 0 18px; */
+}
+
+.header-top-nav-search-form {
+  flex: 1 0 365px;
+}
+
+.header-top-nav-search-selection {
+  background: #f3f3f3;
+  height: 40px;
+  width: 52px;
+  padding-left: 5px;
+  border-radius: 4px 0 0 4px;
+  margin-left: 3px;
+  padding-left: 7px;
+  flex-shrink: 0;
+}
+
+.header-top-nav-search-selection select {
+  border: none;
+  background: #f3f3f3;
+  color: #555;
+  height: 35px;
+  width: auto;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.header-top-nav-search-search-input {
+  flex: 1 0 0px;
+  min-width: 365px;
+}
+
+.header-top-nav-search-search-input input {
+  height: 42px;
+  padding: 7px 10px 10px 0;
+  font-size: 15px;
+  line-height: 15px;
+  text-indent: 8px;
+  color: #111;
+  width: 100%;
+}
+
+.header-top-nav-search-icon {
+  background: url("../assets/sprites/icons-sprite-2.png") no-repeat -10px -290px;
+  width: 21px;
+  height: 21px;
+}
+
+.header-top-nav-search-icon-bg {
+  background: orange;
+  width: 45px;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  cursor: pointer;
+}
+
+/*? top right navbar */
+.header-top-nav-right {
+  display: flex;
+}
+
+.header-top-nav-right-flag {
+  padding: 5px;
+}
+
+.header-top-nav-right-flag a {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  align-items: flex-end;
+  padding: 0 9px 5px 9px;
+  width: 55px;
+  height: 48px;
+}
+
+.header-top-nav-right-flag a:hover {
+  border-color: #fff;
+}
+
+.header-top-nav-right-flag-sprite {
+  background: url("../assets/sprites/flags-sprite.png") no-repeat 0px -130px;
+  width: 24px;
+  height: 18px;
+  margin-bottom: 4px;
+}
+
+.header-top-nav-right-flag-arrow-sprite {
+  background: url("../assets/sprites/flags-sprite.png") no-repeat -81px -86px;
+  width: 9px;
+  height: 5px;
+  margin-left: 3px;
+  margin-bottom: 7px;
+}
+
+/*? account and lists */
+
+.header-top-nav-right-account a {
+  width: 135px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 9px;
+}
+
+.header-top-nav-right-account a:hover {
+  border-color: #fff;
+}
+
+.header-top-nav-right-account .font-14-700 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-top-nav-right-account-arrow-sprite {
+  background: url("../assets/sprites/flags-sprite.png") no-repeat -81px -86px;
+  width: 9px;
+  height: 5px;
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+
+/*? returns */
+.header-top-nav-rightreturns-orders a {
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 9px;
+  width: 79px;
+}
+
+.header-top-nav-rightreturns-orders a:hover {
+  border-color: #fff;
+}
+
+/*? cart */
+.header-top-nav-right-cart a {
+  padding: 9px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  margin-right: 2px;
+}
+
+.header-top-nav-right-cart a:hover {
+  border-color: #fff;
+}
+
+.header-top-nav-right-cart-sprite {
+  background: url("../assets/sprites/icons-sprite-2.png") no-repeat -10px -340px;
+  width: 38px;
+  height: 26px;
+}

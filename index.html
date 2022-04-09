@@ -5,17 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/fonts.css" />
-    <link rel="stylesheet" href="./css/utilities.css" />
+    <link rel="stylesheet" href="./css//utilities/normalize.css" />
+    <link rel="stylesheet" href="./css//utilities/utilities.css" />
+    <link rel="stylesheet" href="./css//utilities/fonts.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/footer.css" />
-    <link
-      rel="stylesheet"
-      media="(min-width: 769px)"
-      href="./css/desktop-style.css"
-    />
     <link
       rel="stylesheet"
       media="(max-width: 768px)"
@@ -27,6 +22,82 @@
     </title>
   </head>
   <body>
-    <h1 class="font-14-400">About this item</h1>
+    <header id="header">
+      <nav class="header-top-nav">
+        <!--? top left nav -->
+        <div class="header-top-nav-left">
+          <div class="header-top-nav-left-logo flex-center">
+            <a href="#" class="flex-center"
+              ><div class="header-top-nav-left-logo-sprite"></div
+            ></a>
+          </div>
+          <div class="header-top-nav-left-location">
+            <a href="#" class="flex-center">
+              <div class="header-top-nav-left-location-sprite"></div>
+              <div class="header-top-nav-left-location-text">
+                <span class="font-12-400"> Deliver to</span
+                ><span class="font-14-700">Israel </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!--? mid search -->
+        <div class="header-top-nav-search">
+          <form class="header-top-nav-search-form flex-center" action="">
+            <div class="header-top-nav-search-selection flex-center">
+              <select name="select" id="select">
+                <option value="">All</option>
+                <option value="">sec</option>
+              </select>
+            </div>
+            <div class="header-top-nav-search-search-input">
+              <input type="text" />
+            </div>
+            <button
+              class="header-top-nav-search-icon-bg flex-center"
+              type="submit"
+            >
+              <div class="header-top-nav-search-icon"></div>
+            </button>
+          </form>
+        </div>
+        <!--? top right nav -->
+        <div class="header-top-nav-right">
+          <div class="header-top-nav-right-flag flex-center">
+            <a href="#" class="flex-center">
+              <span class="header-top-nav-right-flag-sprite"></span>
+              <span class="header-top-nav-right-flag-arrow-sprite"></span>
+            </a>
+          </div>
+
+          <div class="header-top-nav-right-account flex-center">
+            <a href="#"
+              ><div class="font-12-400">Hello, Sign in</div>
+              <div class="font-14-700">
+                <span> Account & Lists </span>
+                <span class="header-top-nav-right-account-arrow-sprite"></span>
+              </div>
+            </a>
+          </div>
+          <div class="header-top-nav-rightreturns-orders flex-center">
+            <a href="" class="flex-center">
+              <div class="font-12-400">Returns</div>
+              <div class="font-14-700">& Orders</div>
+            </a>
+          </div>
+          <div class="header-top-nav-right-cart flex-center">
+            <a href="" class="flex-center">
+              <div class="header-top-nav-right-cart-sprite"></div>
+              <span class="font-14-700">Cart</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <nav class="header-mid-nav">
+        <div class="header-mid-nav-all"></div>
+        <div class="header-mid-nav-xshop"></div>
+      </nav>
+      <nav class="header-bot-nav"></nav>
+    </header>
   </body>
 </html>
