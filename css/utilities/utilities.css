@@ -85,3 +85,13 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.nav-link {
+  padding: 9px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.nav-link:hover {
+  border-color: #fff;
+}
