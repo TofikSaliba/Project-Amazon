@@ -135,4 +135,35 @@ a {
 
 hr {
   opacity: 0.3;
+  margin: 10px 0 15px 0;
+}
+
+.price {
+  color: var(--price-clr);
+}
+
+.climate {
+  color: var(--green-clr);
+}
+
+.climate img {
+  width: 18px;
+  height: 18px;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+table td {
+  padding: 5px 10px 5px 0;
+}
+
+.padding-10 {
+  padding: 10px 0;
+}
+
+.padding-5 {
+  padding: 5px 0;
 }

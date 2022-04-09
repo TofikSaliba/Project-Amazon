@@ -1,7 +1,7 @@
 #main {
   display: grid;
-  grid-template-columns: 5fr 4fr 2fr;
-  grid-template-rows: 1fr 20fr;
+  grid-template-columns: 4fr 3fr 2fr;
+  grid-template-rows: 1fr 11fr;
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1450px;
@@ -10,6 +10,7 @@
 /*? small category list */
 .main-little-category {
   grid-column: 1 / span 3;
+  padding-left: 20px;
 }
 
 .main-little-category ul {
@@ -34,6 +35,7 @@
 /*? left gallery */
 .left-gallery {
   align-items: flex-start;
+  padding-left: 20px;
 }
 
 .left-gallery-small-gallery ul li {
@@ -51,6 +53,7 @@
 }
 
 /*? middle info */
+/*? first part */
 .middle-info {
   padding: 15px;
 }
@@ -76,4 +79,12 @@
   width: 7px;
   height: 4px;
   margin: 7px 10px 0 10px;
+}
+
+/*? consider this item */
+
+.consider-this-stars-sprite {
+  background: url("../assets/sprites/stars-sprite.png") no-repeat -84px -28px;
+  width: 80px;
+  height: 15px;
 }
