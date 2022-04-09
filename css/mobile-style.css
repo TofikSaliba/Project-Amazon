@@ -1,0 +1,167 @@
+.header-top-nav {
+  justify-content: space-between;
+}
+
+.header-top-nav-left-location {
+  display: none;
+}
+
+.header-top-nav-search-form select {
+  display: none;
+}
+
+.header-top-nav-right-flag {
+  display: none;
+}
+
+.header-top-nav-right-account {
+  display: none;
+}
+
+.header-top-nav-rightreturns-orders {
+  display: none;
+}
+
+.header-bot-nav {
+  display: none;
+}
+
+#main {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "main-little-category"
+    "left-gallery"
+    "middle-info"
+    "right-info";
+}
+
+.main-little-category {
+  grid-area: main-little-category;
+}
+
+.left-gallery {
+  grid-area: left-gallery;
+}
+
+.middle-info {
+  grid-area: middle-info;
+}
+.right-info {
+  grid-area: right-info;
+}
+
+.main-little-category ul {
+  justify-content: center;
+}
+
+.left-gallery-big-image img {
+  width: 80%;
+}
+
+.left-gallery {
+  margin-right: 100px;
+}
+
+.left-gallery-big-image {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+}
+
+.sticky-div {
+  justify-content: center;
+}
+
+.middle-info-about-item ul {
+  width: 700px;
+}
+
+.checkboxes-box {
+  width: 700px;
+}
+
+.pics-box div {
+  width: 250px;
+}
+
+.coursal-lower {
+  width: 700px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.coursal-items div:first-child {
+  display: none;
+}
+
+.right-info {
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .header-top-nav-search {
+    display: none;
+  }
+  .header-mid-nav {
+    display: none;
+  }
+  .header-top-nav-search-mobile {
+    display: block;
+  }
+
+  .left-gallery-big-image img {
+    width: 50%;
+  }
+
+  .main-little-category ul {
+    justify-content: left;
+  }
+
+  .left-gallery-big-image {
+    display: flex;
+    width: 70%;
+    justify-content: left;
+  }
+
+  .sticky-div {
+    justify-content: left;
+  }
+  /*  */
+  .middle-info h2 {
+    width: 40%;
+  }
+  .middle-info-about-item ul {
+    width: 40%;
+  }
+
+  .middle-info-consider-this {
+    width: 40%;
+  }
+
+  .right-info {
+    width: 45%;
+    justify-content: flex-start;
+    margin: 0 0 0 20px;
+  }
+
+  .checkboxes-box {
+    width: 40%;
+  }
+
+  .pics-box {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 100px;
+  }
+
+  .coursal-lower {
+    width: 40%;
+  }
+  .coursal-items {
+    flex-direction: column;
+  }
+}

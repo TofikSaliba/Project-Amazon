@@ -200,6 +200,11 @@
   margin-right: 5px;
 }
 
+.header-top-nav-search-mobile {
+  margin: 10px;
+  display: none;
+}
+
 /*? ---------- bottom navbar ---------- */
 .header-bot-nav {
   background: #f3f3f3;
