@@ -190,6 +190,7 @@
 
 .header-mid-nav a {
   padding: 5px 10px;
+  flex-shrink: 0;
 }
 
 .header-mid-nav .all-sprite {
@@ -211,4 +212,5 @@
 .header-bot-nav a {
   color: #333;
   padding: 5px 10px;
+  flex-shrink: 0;
 }
